@@ -1,0 +1,163 @@
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+
+.text{
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.line{
+    height:2px;
+    background:black;   
+}
+
+.logo{
+    width:400px;
+}
+
+.highlight{
+    width: 100px;
+    background-color: yellow;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.tagline{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.pastry{
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    width: 450px;
+    margin: 0 auto;
+    display: block;
+}
+
+.pastry:hover{
+    background-color: yellow;
+}
+
+.photos{
+    width: 400px;
+    border: 2px black solid;
+}
+
+.description{
+    width: 400px;
+    text-align: justify;
+    margin: 0 auto;
+    display: block;
+}
+
+.detail{
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+.detailphotos{
+    width: 600px;
+    border: 2px black solid;
+}
+
+.detaildescription{
+    padding-top: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.options{
+    width:250px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;  
+    padding-top: 30px; 
+    padding-bottom: 50px;
+}
+
+.glaze{
+    text-align: left;
+}
+
+.select{
+    width: 250px;
+    height: 30px;
+}
+
+.add{
+    width: 200px;
+    margin: 0 auto;
+    display: block; 
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+
+.addBtn{
+    margin-left: 30px;
+    margin-right:30px;
+    padding:8px;
+    width:100px;
+    background-color: white;
+
+}
+
+.addBtn:hover{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.cart{
+    width:300px;
+    text-align: center;
+    margin: 0 auto;
+    display: block; 
+    padding-top: 30px;
+    padding-bottom: 20px;
+     
+}
+
+.cartPhoto{
+    width: 200px;
+    border: 2px black solid;
+}
+
+.remove{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.remove:hover{
+    text-decoration: underline;
+}
+
+#lineCart{
+    width:75%;
+    margin: 0 auto;
+    height:2px;
+    background:black;
+}
+
+.checkout{
+    text-align: center;
+}
