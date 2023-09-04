@@ -11,7 +11,7 @@ a:visited{
 .text{
     font-weight: bold;
     text-align: center;
-    
+    color:black;
 }
 
 .line{
@@ -29,6 +29,7 @@ a:visited{
     margin: 0 auto;
     display: block;
     text-align: center;
+    color:black;
 }
 
 .tagline{
