@@ -50,6 +50,7 @@ a:visited{
 
 .pastry:hover{
     background-color: yellow;
+    font-weight: bold;
 }
 
 .photos{
