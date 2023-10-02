@@ -6,7 +6,7 @@ const rollType = params.get("roll");
 let productPic = document.querySelector("#detailPhotos");
 let productName = document.querySelector("#productName");
 
-productPic.src = "../assets/products/" + rollType + "-cinnamon-roll.jpg";
+productPic.src = "../assets/products/" + rolls[rollType].imageFile;
 productName.innerText = rollType + " Cinnamon Roll";
 
 let details = rolls[rollType];
