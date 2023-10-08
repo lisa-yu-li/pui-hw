@@ -35,6 +35,9 @@ let total = document.querySelector("#totalPrice");
 
 function updateTotalPrice(){
     total.innerHTML = "$" + checkoutTotal.toFixed(2);
+    if (cartItems.size == 0){
+        total.innerHTML = "$0.00";
+    }
 }
 
 function populateCart(roll){
