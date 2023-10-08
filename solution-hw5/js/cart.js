@@ -52,7 +52,7 @@ function populateCart(roll){
     let size = clone.querySelector("#descriptionSize");
     let price = clone.querySelector("#descriptionPrice");
     
-    image.src = ".././assets/products/" + roll.type + "-cinnamon-roll.jpg";
+    image.src = ".././assets/products/" + roll.type.toLowerCase() + "-cinnamon-roll.jpg";
     rollName.innerHTML = roll.type + " Cinnamon Roll";
     glaze.innerHTML = roll.glazing;
     size.innerHTML = "Pack Size: " + roll.size;
