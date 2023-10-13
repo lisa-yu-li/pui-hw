@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="./js/rollsData.js" defer></script>
+    <script type="text/javascript" src="./js/cart.js" defer></script>
+    <title>Shopping Cart</title>
+  </head>
+  
+  <body>
+    <div id="navigation">
+      <a href="index.html"><img class= "logo" src="../assets/logo/logo-01.svg" alt="logo"></a>
+
+      <div id="menuWithLine">
+
+        <div id="menuItems">
+          <a href="index.html"><p class="navText">PRODUCTS</p></a>
+          <a href="shopping.html"><p class="navText highlight">CART</p></a>
+        </div>
+    
+        <hr class="line">
+        <div class="tagline">Shopping Cart</div>
+
+      </div>  
+    </div>
+    <div id="cart-content">
+      <template class="template">
+        <div id="cart">
+          <div>
+            <img class="cartPhoto" id="cartImage" alt="photo of cinammon roll">
+            <p class="remove">REMOVE</p>
+          </div>
+          <div>
+          <p class="cartDescription" id="descriptionName">name</p>
+          <p class="cartDescription" id="descriptionGlaze">glaze</p>  
+          <p class="cartDescription" id="descriptionSize">pack</p>  
+          </div>
+          <p class="cartPrice" id="descriptionPrice">price</p>
+
+        </div>
+      </template>
+    </div>
+
+        <hr id="lineCart">
+      
+
+      <div class="checkout">
+        <p class="cartTotal">Total</p>
+        <p class="cartTotal" id="totalPrice">$29.94</p>
+       
+      </div>
+
+      <div class="alignButton">
+        <button class="checkoutBtn">Checkout</button>
+      </div>
+        
+
+    
+    
+      
+  </body>
+
+</html>

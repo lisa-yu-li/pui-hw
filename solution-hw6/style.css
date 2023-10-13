@@ -1,0 +1,265 @@
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+#menuWithLine{
+    display: flex;
+    flex-direction: column;
+}
+
+.navText{
+    font-weight: lighter;
+    text-align: center;
+    color:black;
+}
+
+.highlight{
+    background-color: yellow;
+    color:black;
+    font-weight: bold;
+}
+
+
+.line{
+    height:2px;
+    background:black; 
+    width: 750px; 
+    margin-left: auto;
+    margin-right:0;
+}
+
+#menuItems{
+    display: flex;
+    justify-content: space-between;
+    width:250px;
+    margin-right:70px;
+    margin-left:auto;
+    margin-top:40px;
+    margin-bottom:10px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.tagline{
+    margin-top: 35px;
+    text-align: left;
+    font-size: 28px;
+    font-family: helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+#productName{
+    margin-top: 35px;
+    text-align: left;
+    font-size: 28px;
+    font-family: helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+.logo{
+    width:400px;
+}
+
+
+.gridLayout{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pastry{
+    width: 310px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    font-family: helvetica, sans-serif;
+}
+
+.pastry:hover{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.photos{
+    width: 285px;
+    border: 2px black solid;
+}
+
+.description{
+    width: 285px;
+    color:black;
+    text-align: left;
+    margin: 0 auto;
+    display: block;
+}
+
+#pastryDetails{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+#detailPhotos{
+    width: 600px;
+    border: 2px black solid;
+}
+
+.detaildescription{
+    padding-bottom: 50px;
+    text-align: left;
+    width: 300px;
+    font-size: 22px;
+}
+
+.glaze{
+    text-align: left;
+    font-size: 20px;
+}
+
+#glazing{
+    width: 300px;
+    height: 40px;
+}
+
+#packSize{
+    width: 300px;
+    height: 40px;
+}
+
+#picker{
+    margin-bottom: 60px;
+}
+#amount{
+    margin-bottom: 60px;
+}
+
+.add{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+#price{
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#addBtn{
+    padding:8px;
+    width:140px;
+    background-color: white;
+    font-size: 20px;
+
+}
+
+#addBtn:hover{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:690px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 70px;
+     
+}
+
+.cartPhoto{
+    width: 170px;
+    border: 2px black solid;
+}
+
+.remove{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.remove:hover{
+    text-decoration: underline;
+}
+
+
+#lineCart{
+    width:760px;
+    margin-right: 0;
+    margin-left: auto;
+    height:2px;
+    background:black;
+}
+
+.cartDescription{
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    width: 350px;
+}
+
+.cartPrice{
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+}
+
+.cartTotal{
+    text-align: left;
+    font-size: 28px;
+    font-family: helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.checkout{
+    display: flex;
+    align-items: center;
+    width: 460px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 70px;
+    
+}
+
+.checkoutBtn{
+    margin-left: auto;
+    margin-right: 70px;
+    padding:10px;
+    width:140px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.checkoutBtn:hover{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.alignButton{
+    width:140px;
+    margin-left: auto;
+    margin-right: 70px;
+    padding-bottom:30px;   
+}
+
+
