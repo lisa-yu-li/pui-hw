@@ -105,7 +105,6 @@ addToCart.addEventListener("click", () => {
 });
 
 
-
 function saveToLocalStorage() {
     const cartString = JSON.stringify(cart);
   
