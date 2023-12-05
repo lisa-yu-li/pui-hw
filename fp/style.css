@@ -1,0 +1,361 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: "Space Mono", monospace;
+    color:#203817;
+    font-size: 14px;
+    background-image: url(./images/paper.jpg);
+}
+
+
+#header{
+    display: flex;
+    margin-left:120px;
+    margin-right:120px;
+    align-items: center;
+}
+
+#title{
+    width:650px;
+    font-size: 70px;
+    
+}
+
+#blurb{
+    width:360px;
+    font-size: 14px;
+    margin-left:80px;
+}
+
+#cover{
+    width: 1400px;
+}
+
+.homecontent{
+    display: flex;
+    margin-left:120px;
+    margin-right:120px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.bodytext{
+    font-size: 14px;
+}
+
+#homepagecart{
+    width: 700px;
+}
+
+#questions{
+    margin-left:80px;
+}
+
+#homepageflower{
+    width: 600px;
+    margin-right: -30px;
+}
+
+#poem1{
+    width:250px;
+    padding-right: 50px;
+}
+
+#poem2{
+    width:250px;
+    padding-right: 50px;
+    padding-top:150px;
+}
+
+#explore{
+    font-size: 45px;
+    text-align: right;
+    margin-right:120px;
+    margin-top:70px;
+    margin-bottom:70px;
+}
+
+.subtitle{
+    font-size: 55px;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+a:link{
+    color: #203817;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #203817;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #D62F64;
+    text-decoration: underline;
+}
+
+#month-nav{
+    margin-left: 45px;
+    position:fixed;
+    transform: translateY(-220px);
+}
+
+.checkpoint{
+    border-left: 3px solid #646E60;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 150px;
+}
+
+.month{
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.flower-name{
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.top-section{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.bottom-section{
+    display: flex;
+    align-items: center;
+    margin-top: -50px;
+
+}
+
+.timeline-text{
+    width: 450px;
+}
+
+
+.image{
+
+    transition:transform 0.3s ease 0s;
+}
+
+.image:hover{
+    transform: translateY(20px);
+}
+
+#jamaica-pic{
+    width: 480px;   
+}
+
+#jamaica-market{
+    width: 500px;
+}
+
+#bugambilia-pic{
+    width: 480px;
+}
+
+#bugambilia-scene{
+    width: 450px;
+    margin-top: -150px;
+}
+
+.bottom-timeline-text{
+    width: 450px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+#frida{
+    margin-top: 50px;
+}
+
+
+#frida-pic{
+    width: 500px;
+    margin-top: -70px;
+}
+
+#jacaranda-pic{
+    width: 380px;
+    margin-left: 30px;
+    margin-right: 70px;
+}
+
+#jacaranda-scene{
+    width:450px;
+    margin-top: -40px;
+}
+
+
+.timeline-dot{
+    position:absolute;
+    width:35px;
+    height:35px;
+    background: #BCC8BB;
+    border-radius: 50%;
+    transform:translate(-37px, -20px)
+
+}
+
+.timeline-mon{
+    position:absolute;
+    width:50px;
+    text-align: right;
+    font-size: 22px;
+    transform:translate(-95px, -18px)
+
+}
+
+#velo-pic{
+    width: 450px;
+}
+
+#velo-market{
+    width: 580px;
+    margin-left: -40px;
+}
+
+#alcatraz-pic{
+    width: 450px;
+}
+
+#flower-seller{
+    width: 500px;
+    margin-top: -50px;
+}
+
+#nopal-pic{
+    width:450px;
+}
+
+.nopal-description{
+    width:300px;
+    margin-left:50px;
+    margin-right: 30px;
+}
+
+#nopal-food{
+    width: 600px;
+}
+
+#calabaza-pic{
+    width: 400px;
+    margin-right: 25px;
+}
+
+#quesadilla{
+    width: 550px;
+    margin-left: -40px;
+}
+
+#dahlia-pic{
+    width: 450px;
+}
+
+#atole{
+    width: 480px;
+    margin-top: -50px;
+}
+
+#amarilla-pic{
+    width: 450px;
+}
+
+#floricienta{
+    width:500px;
+    margin-top: -50px;
+}
+
+#manodeleon-pic{
+    width:450px;
+}
+
+#calaveras{
+    width: 550px;
+    margin-left: -50px;
+}
+
+#cempasuchil-pic{
+    width: 450px;
+}
+
+#ofrenda{
+    width:550px;
+    margin-left: -20px;
+}
+
+#nochebuena-pic{
+    width: 480px;
+}
+
+#luces{
+    width: 450px;
+}
+
+.double-menu{
+    display: flex;
+    align-items: center;
+    margin-left:120px;
+    margin-right:120px;
+    
+}
+
+.to{
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    flex-grow: 50;
+    width: 585px;
+}
+
+.citedto{
+    padding-right: 100px;
+    padding-top: 60px;
+    font-size: 18px;
+    align-items: left;
+}
+
+.workscited{
+    margin-left: 120px;
+    margin-right: 120px;
+    word-wrap: break-word
+}
+
+#back{
+    margin-left: 120px;
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+#spotify{
+    border-radius:12px;
+    width: 600px;
+    height: 200px;
+    align-items: center;
+    margin-left: 150px;
+}
+
+#music{
+    display: flex;
+    align-items: top;
+}
+
+#musictext{
+    width: 400px;
+    margin-left: 30px;
+}
+
