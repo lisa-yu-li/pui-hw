@@ -7,7 +7,7 @@ body{
     font-family: "Space Mono", monospace;
     color:#203817;
     font-size: 14px;
-    background-image: url(./images/paper.jpg);
+    background-image: url(../images/paper.jpg);
 }
 
 
@@ -49,6 +49,7 @@ body{
 
 #homepagecart{
     width: 700px;
+    margin-left: -50px;
 }
 
 #questions{
@@ -123,11 +124,13 @@ a:hover{
     font-size: 26px;
     margin-top: 0;
     margin-bottom: 0;
+    font-weight: 400;
 }
 .flower-name{
     font-size: 60px;
     margin-top: 0;
     margin-bottom: 30px;
+    font-weight: 400;
 }
 .top-section{
     display: flex;
