@@ -1,85 +1,15 @@
+
+
+/*general css*/
 html{
     scroll-behavior: smooth;
 }
-
 
 body{
     font-family: "Space Mono", monospace;
     color:#203817;
     font-size: 14px;
     background-image: url(../images/paper.jpg);
-}
-
-
-#header{
-    display: flex;
-    margin-left:120px;
-    margin-right:120px;
-    align-items: center;
-}
-
-#title{
-    width:650px;
-    font-size: 70px;
-    font-weight: 400;
-    
-}
-
-#blurb{
-    width:360px;
-    font-size: 14px;
-    margin-left:80px;
-}
-
-#cover{
-    width: 1400px;
-}
-
-.homecontent{
-    display: flex;
-    margin-left:120px;
-    margin-right:120px;
-    margin-top: 30px;
-    align-items: center;
-}
-
-#bodytext{
-    font-size: 14px;
-}
-
-#homepagecart{
-    width: 700px;
-    margin-left: -50px;
-}
-
-#questions{
-    margin-left:80px;
-}
-
-#homepageflower{
-    width: 600px;
-    margin-right: -30px;
-}
-
-#poem1{
-    width:250px;
-    padding-right: 50px;
-    font-size: 14px;
-}
-
-#poem2{
-    width:250px;
-    padding-right: 50px;
-    padding-top:150px;
-    font-size: 14px;
-}
-
-#explore{
-    font-size: 45px;
-    text-align: right;
-    margin-right:120px;
-    margin-top:70px;
-    margin-bottom:70px;
 }
 
 .subtitle{
@@ -103,6 +33,74 @@ a:hover{
     color: #D62F64;
     text-decoration: underline;
 }
+
+/*css for the homepage*/
+
+#header{
+    display: flex;
+    margin-left:120px;
+    margin-right:120px;
+    align-items: center;
+}
+
+#title{
+    width:650px;
+    font-size: 70px;
+    font-weight: 400;
+    
+}
+
+#blurb{
+    width:360px;
+    margin-left:80px;
+}
+
+#cover{
+    width: 1400px;
+}
+
+.homecontent{
+    display: flex;
+    margin-left:120px;
+    margin-right:120px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+#homepagecart{
+    width: 700px;
+    margin-left: -50px;
+}
+
+#questions{
+    margin-left:80px;
+}
+
+#homepageflower{
+    width: 600px;
+    margin-right: -30px;
+}
+
+#poem1{
+    width:250px;
+    padding-right: 50px;
+}
+
+#poem2{
+    width:250px;
+    padding-right: 50px;
+    padding-top:150px;
+}
+
+#explore{
+    font-size: 45px;
+    text-align: right;
+    margin-right:120px;
+    margin-top:70px;
+    margin-bottom:70px;
+}
+
+/*css for the timeline page*/
 
 #month-nav{
     margin-left: 45px;
@@ -366,3 +364,99 @@ a:hover{
     margin-left: 30px;
 }
 
+
+/*responsive css for smaller tablet screen*/
+
+@media only screen and (max-width: 800px){
+    body{
+        font-size: 10px;
+    }
+
+    /*responsive css for home page*/
+
+    #title{
+        font-size: 30px; 
+        width: 400px;
+    }
+
+    .subtitle{
+        font-size: 26px;
+    }
+
+    .homecontent{
+        flex-direction: column;
+    }
+    
+    #poem2{
+        padding-top:30px;
+    }
+
+    #explore{
+        font-size: 30px;
+    }
+
+    /*responsive css for timeline page*/
+    #music{
+        flex-direction: column;
+    }
+
+    #spotify{
+        width: 400px;
+    }
+
+    #musictext{
+        margin-left: 150px;
+        margin-bottom: 50px;
+    }
+
+    .timeline-dot{
+        width:15px;
+        height:15px;
+        transform:translate(-29px, -20px)
+    
+    }
+    
+    .timeline-mon{
+        font-size: 16px;
+        transform:translate(-95px, -25px)
+    
+    }
+
+    .top-section{
+        flex-direction: column;
+    }
+    
+    .bottom-section{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .month{
+        font-size: 20px;
+    }
+    .flower-name{
+        font-size: 40px;
+    }
+
+    #floricienta{
+        margin-top: 20px;
+    }
+
+    #back{
+        font-size: 16px;
+    }
+
+    .double-menu{
+        flex-direction: column;
+    }
+
+    .to{
+        font-size: 16px;
+    }
+    
+    .citedto{
+        font-size: 16px;
+    }
+
+
+}
