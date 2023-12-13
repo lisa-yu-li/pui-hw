@@ -9,4 +9,4 @@ let reveal = {
 ScrollReveal().reveal(".revealContent", reveal);
 
 
-//making the dot of the 
+
